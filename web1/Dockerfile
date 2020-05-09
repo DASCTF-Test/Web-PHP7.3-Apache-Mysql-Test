@@ -1,4 +1,4 @@
-FROM dasctf/web_php73_apache_mysql
+FROM dasctfbase/web_php73_apache_mysql
 
 COPY src /var/www/html
 
