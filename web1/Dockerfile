@@ -12,7 +12,7 @@ COPY files/db.sql /db.sql
 # RUN chown www-data:www-data /var/www/html/uploads/
 
 # 如需静态 FLAG 请在此利用环境变量声明
-# ENV DASCTF=flag{flag_test}
+# ENV DASCTF=DASCTF{flag_test}
 
 # 请声明对外暴露端口
 EXPOSE 80
